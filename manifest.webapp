@@ -1,0 +1,22 @@
+{
+  "version" : "0.1",
+  "name": "PhotoApp",
+  "type": "privileged",
+  "description": "An HTML5 photo sharing app for FirefoxOS",
+  "launch_path": "/app.html",
+  "icons": {
+    "60": "/images/icon-64.png",
+    "128": "/images/icon-128.png"
+  },
+  "developer": {
+    "name": "Subham Saha",
+    "url": "http://subhamsaha1004.github.io"
+  },
+ 
+  "permissions": {
+    "geolocation": {
+      "description": "Needed to tell the user where they are"
+    }
+  },
+  "default_locale": "en"
+}
